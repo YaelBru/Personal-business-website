@@ -1,0 +1,26 @@
+.navItemLink {
+  padding: 12.5px;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: 600;
+  color: #a343d1;
+}
+
+.navItemLink::after {
+  content: "";
+  margin-top: 5px;
+  width: 0px;
+  height: 1px;
+  display: block;
+  background: #6851df;
+  transition: 300ms;
+}
+
+.navItemLink:hover::after {
+  width: 100%;
+  color: #6851df;
+}
+
+.navItemLink:hover {
+  color: #6851df;
+}

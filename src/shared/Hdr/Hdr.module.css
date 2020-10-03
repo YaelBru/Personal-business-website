@@ -1,0 +1,52 @@
+.header {
+  margin-top: 0;
+  font-size: 32px;
+}
+
+.header::before,
+.header::after {
+  display: inline-block;
+  width: 70px;
+  margin: 0 20px;
+  border-width: 1px 0 0;
+  border-style: solid;
+  border-color: #a437acc7;
+  vertical-align: middle;
+  content: "";
+}
+
+.paragraph {
+  margin-top: 0;
+  font-size: 14px;
+  letter-spacing: 1px;
+  width: 70%;
+}
+
+.header,
+.paragraph {
+  text-align: center;
+}
+
+@media all and (max-width: 900px) {
+  .header {
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+
+  .header::before,
+  .header::after {
+    width: 60px;
+    margin: 25px 15px;
+  }
+
+  .paragraph {
+    font-size: 14px;
+  }
+}
+
+@media all and (max-width: 600px) {
+  .paragraph {
+    width: 80%;
+    margin-bottom: 0;
+  }
+}

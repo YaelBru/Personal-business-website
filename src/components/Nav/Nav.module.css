@@ -1,0 +1,25 @@
+.navMenu {
+  display: flex;
+  justify-content: space-between;
+  height: 93px;
+  width: 85%;
+  margin: 0 auto;
+}
+
+.navUl {
+  display: flex;
+}
+
+.navItemsWrapper {
+  width: 100%;
+  display: flex;
+}
+
+.imgContainer {
+  display: flex;
+  align-items: center;
+}
+
+.imgLogo {
+  height: 80px;
+}

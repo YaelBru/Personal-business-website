@@ -1,0 +1,66 @@
+.headerBackground {
+  position: relative;
+  background: linear-gradient(145deg, #f891f2, #ae25f6);
+  background-image: url("../../assets/wellness-5314298_1280.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 80vh;
+}
+
+.h1Container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  padding: 30px 0;
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  background-color: #ffffff2b;
+  text-align: center;
+  color: #ffffff;
+}
+
+.h1Text {
+  margin: 10px 0 15px 0;
+  font-size: 57px;
+}
+
+.pText {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.h1Text,
+.pText {
+  text-shadow: 0px 2px 3px rgba(0, 0, 0, 0.993);
+}
+
+@media all and (max-width: 900px) {
+  .h1Text {
+    font-size: 42px;
+  }
+
+  .pText {
+    font-size: 17px;
+  }
+}
+
+@media all and (max-width: 600px) {
+  .headerBackground {
+    /* background-size: contain; */
+    background-attachment: unset;
+    height: 80vh;
+  }
+
+  .h1Text {
+    font-size: 38px;
+  }
+
+  .pText {
+    font-size: 14px;
+  }
+}
