@@ -38,7 +38,6 @@
   .header::before,
   .header::after {
     width: 60px;
-    margin: 25px 15px;
   }
 
   .paragraph {
@@ -47,8 +46,18 @@
 }
 
 @media all and (max-width: 600px) {
+  .header {
+    font-size: 24px;
+  }
+
   .paragraph {
     width: 80%;
     margin-bottom: 0;
+  }
+
+  .header::before,
+  .header::after {
+    width: 40px;
+    margin: 25px 15px;
   }
 }
