@@ -1,3 +1,4 @@
+
 .header {
   margin-top: 0;
   font-size: 32px;
@@ -20,6 +21,7 @@
   font-size: 14px;
   letter-spacing: 1px;
   width: 70%;
+  margin: auto;
 }
 
 .header,
