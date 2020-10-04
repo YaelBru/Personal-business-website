@@ -6,7 +6,7 @@ Live demo - https://taya-therapy.herokuapp.com
 
 ## Features
   * Responsive web design
-  * Contact options - Facebook, WhatsApp and contact form with EmailJS
+  * Contact options including a contact form with EmailJS
   * In development to include more features as requested by client
 
 ## Tech and Frameworks
